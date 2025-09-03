@@ -1,7 +1,8 @@
+// scripts/get-demo.mjs
 import { request } from "./request.mjs";
 
 (async () => {
-  const res = await request("GET", "/posts");
-  console.log("GET /posts → status:", res.status);
-  console.log("First two posts:", res.data.slice(0, 2)); // show only first 2
+  const res = await request("GET", "/health");
+  console.log("GET /health → status:", res.status);
+  console.log("Data:", res.data);
 })();
