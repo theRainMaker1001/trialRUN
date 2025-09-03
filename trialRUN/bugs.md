@@ -1,10 +1,10 @@
 ## Bug Summary
 
-| ID      | Title                         | Priority | Status   | Notes                |
-|---------|-------------------------------|----------|----------|----------------------|
-| BUG-001 | Login returns raw HTML errors | P1       | Open     | Affects all logins   |
-| BUG-002 | /me allows access w/o token   | P1       | Open     | Security risk        |
-| BUG-003 | Error message missing field   | P2       | Open     | A11y/UX issue        |
+| ID      | Title                         | Priority | Status | Notes              |
+|---------|-------------------------------|----------|--------|--------------------|
+| BUG-001 | Login returns raw HTML errors | P1       | Open   | Affects all logins |
+| BUG-002 | /me allows access w/o token   | P1       | Open   | Security risk      |
+| BUG-003 | Error message missing field   | P2       | Open   | A11y/UX issue      |
 
 ---
 
@@ -35,9 +35,9 @@
 
 **Evidence**
 - Screenshot / recording / API snippet / logs
-json
+```json
 {}
-
+```
 
 **Notes**
 - Hypothesis / frequency (e.g., 3/3), related tickets/PRs, rollback info

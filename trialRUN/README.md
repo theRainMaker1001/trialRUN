@@ -20,19 +20,19 @@ README.md
 ```
 
 ## Assumptions
-- BASE_URL points to target env; Bearer token if auth is returned.
+- BASE_URL points to the target env; attach Bearer token if auth returns one.
 - 401/403 for missing/invalid tokens; 429 indicates rate limit.
-- Use EP (valid vs invalid) and BVA (min−1/min/min+1) where rules are unclear.
+- Use EP (valid vs invalid) and BVA (min-1 / min / min+1) where rules are unclear.
 
 ## Test scope
 - Auth: login **positive + negative** (expect 200 + token / 400–401 + readable message).
 - Read endpoints: `/health`, `/me` (status + safe JSON/text parse).
-- Errors: human-readable messages (WCAG 3.3.1/3.3.3).
+- Errors: human-readable messages (WCAG 3.3.1, 3.3.3).
 
 ## Accessibility (WCAG focus)
 - **1.4.2 Audio Control** — audio is pausable/stop/mute.
-- **2.5.3 Label-in-Name** — visible text appears in accessible name.
-- **2.5.8 Target Size** — controls ≥ 44×44 CSS px.
+- **2.5.3 Label in Name** — visible text appears in accessible name.
+- **2.5.8 Target Size (Minimum)** — controls ≥ 44×44 CSS px.
 
 ## Git flow
 ```bash
