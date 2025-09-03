@@ -1,10 +1,20 @@
-## BUG-2025-09-03-001 – [Area] concise failure summary (WCAG code)
+## Bug Summary
+
+| ID      | Title                         | Priority | Status   | Notes                |
+|---------|-------------------------------|----------|----------|----------------------|
+| BUG-001 | Login returns raw HTML errors | P1       | Open     | Affects all logins   |
+| BUG-002 | /me allows access w/o token   | P1       | Open     | Security risk        |
+| BUG-003 | Error message missing field   | P2       | Open     | A11y/UX issue        |
+
+---
+
+## BUG-YYYY-MM-DD-001 – [Area] concise failure summary (WCAG code)
 
 > **Status:** Open · **Severity:** `S1` · **Priority:** `P1` · **Reporter:** Tom Cunningham
 
 **Environment**
 - iOS 17 · Device · Build `<hash>`
-- Network: Wi-Fi/LTE · Date: 2025-09-03
+- Network: Wi-Fi/LTE · Date: YYYY-MM-DD
 
 **Preconditions**
 - logged in as standard user
@@ -23,16 +33,13 @@
 **Impact**
 - Who is affected? Data loss? Security? Accessibility impact?
 
-**Severity / Priority**
-- S1 / P1 (brief justification)
-
 **Evidence**
-- Screenshot / screen recording / API snippet / logs
-```json
+- Screenshot / recording / API snippet / logs
+json
 {}
-```
+
 
 **Notes**
-- Hypothesis / frequency (e.g., 3/3), related tickets/PRs
+- Hypothesis / frequency (e.g., 3/3), related tickets/PRs, rollback info
 
 ---
